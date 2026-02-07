@@ -1,0 +1,61 @@
+.container{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20251213/pngtree-colorful-xylophone-with-mallets-on-pink-surface-image_20818941.webp');
+}
+.container h1{
+    text-align: center;
+    color: #ffffff;
+}
+.container p{
+    text-align: center;
+    color: #000000;
+    font-size: large;
+}
+.magges{
+    border: 2px solid rgb(255, 255, 255);
+    width: 40%;
+    height: 350px;
+    margin: 6px auto;
+    padding: 3px 20px 3px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.magges h1{
+    color: #333333;
+    padding: 1px;
+    font-weight: 900;
+    
+}
+.magges input{
+    display: block;
+    width: 80%;
+    margin: 6px auto;
+    padding: 6px 8px;
+    font-size: medium;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.magges textarea{
+    display: block;
+    width: 80%;
+    min-height: 60px;
+    margin: 6px auto;
+    padding: 6px 8px;
+    font-size: x-large;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.magges input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.magges textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
