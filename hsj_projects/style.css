@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width : 100%; 
+    background-image: url('https://img.etimg.com/thumb/msid-65278345,width-640,resizemode-4,imgsize-25622/august-1-world-wide-web-day.jpg'); 
+    background-size: cover;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-left:    150px;
+    margin-bottom:  100px;
+}
+
+.projects {
+    background-color: lightblue;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px
+}
